@@ -23,4 +23,4 @@ RandomForest classifier with preprocessing pipeline.
 Precision/recall, ROC-AUC, feature importance.
 
 ## Conclusion
-Demonstrates how ML can prioritize QC review without replacing human judgment.
+Demonstrates how ML can prioritize QC review without replacing human judgment .
