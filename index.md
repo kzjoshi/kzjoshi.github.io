@@ -14,7 +14,9 @@ The dataset consists of approximately 2,000 synthetic QC records designed to res
 
 Prior to modelling, missing numeric values were imputed, categorical values were completed using the most frequent category, numeric features were scaled, and categorical features were one-hot encoded. The dataset was then split into training and test sets.
 
-Figure 1 shows expected versus observed assay results colored by the `is_suspicious` label, illustrating that suspicious records tend to appear as outliers or distinct clusters.
+![Figure 1: Expected versus observed assay results for synthetic LIMS QC records, colored by is_suspicious.](assets/IMG/figure1_expected_vs_observed_qc.png)
+
+*Figure 1: Expected versus observed assay results for synthetic LIMS quality-control (QC) records. Records flagged as `is_suspicious` appear as outliers and clustered deviations from the expected–observed relationship.*
 
 ## Modelling
 Because the dataset includes labeled examples, a supervised classification approach was appropriate. I selected a RandomForest classifier due to its ability to model nonlinear relationships, handle mixed feature types, and provide interpretable feature-importance measures.
@@ -32,9 +34,4 @@ The results demonstrate that a supervised machine learning model can learn meani
 A limitation of this study is the use of a synthetic, rule-derived dataset. In real-world applications, model training and validation would require historically adjudicated QC records, along with formal governance, validation, and monitoring to meet regulatory expectations.
 
 ## Conclusion
-This project shows that an AI-enabled data integrity assistant can support QC data review by prioritizing suspicious records rather than replacing human judgment. The approach aligns with ALCOA+ principles by improving consistency and traceability in review workflows.
-
-Future work could extend this project by increasing dataset realism, incorporating drift and bias, and integrating a human-in-the-loop feedback mechanism within a regulated LIMS environment.
-
-## References
-[1] Synthetic LIMS dataset and figures generated for this project (Kent Joshi, 2025).
+This project shows that an AI-enabled data integrity assistant can support QC data review by prioriti
