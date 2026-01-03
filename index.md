@@ -1,5 +1,6 @@
 # AI-Enabled Data Integrity Assistant  
 Hi, welcome to my C111/204 final project!
+
 © 2025 Kent Joshi. All rights reserved.
 
 ## My Project
