@@ -1,5 +1,6 @@
 # AI-Enabled Data Integrity Assistant  
 © 2025 Kent Joshi. All rights reserved.
+
 Hi, welcome to my AOS C204 final project!
 
 ## My Project
