@@ -34,4 +34,9 @@ The results demonstrate that a supervised machine learning model can learn meani
 A limitation of this study is the use of a synthetic, rule-derived dataset. In real-world applications, model training and validation would require historically adjudicated QC records, along with formal governance, validation, and monitoring to meet regulatory expectations.
 
 ## Conclusion
-This project shows that an AI-enabled data integrity assistant can support QC data review by prioriti
+This project shows that an AI-enabled data integrity assistant can support QC data review by prioritizing suspicious records rather than replacing human judgment. The approach aligns with ALCOA+ principles by improving consistency and traceability in review workflows.
+
+Future work could extend this project by increasing dataset realism, incorporating drift and bias, and integrating a human-in-the-loop feedback mechanism within a regulated LIMS environment.
+
+## References
+[1] Synthetic LIMS dataset and figures generated for this project (Kent Joshi, 2025).
