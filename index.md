@@ -1,9 +1,9 @@
 # AI-Enabled Data Integrity Assistant  
-Hi, welcome to my C111/204 final project!
-
 © 2025 Kent Joshi. All rights reserved.
 
 ## My Project
+Hi, welcome to my C111/204 final project!
+
 I applied machine learning techniques to build an AI-enabled assistant that flags suspicious quality-control (QC) records in a synthetic LIMS dataset. Below is my report.
 
 ## Introduction
