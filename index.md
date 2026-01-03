@@ -1,7 +1,7 @@
 # AI-Enabled Data Integrity Assistant  
-© 2026 Kent Joshi. All rights reserved.
+© 2025 Kent Joshi. All rights reserved.
 
-**Final Project – AOS C111/204**  
+**Final Project – C111/204**  
 **Author:** Kent Joshi
 
 This project builds a machine learning classifier to flag suspicious
